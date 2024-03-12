@@ -42,6 +42,13 @@ networks:
 - [x] Added improved search capability by adding `text` index for full-text search
 - [x] Partially added fuzzy search by using the external library `mongoose-fuzzy-searching`. It was not working as expected. It needs more time.
 
+### Further development Ideas
+
+- [ ] Add test cases
+- [ ] Add loading indicator on the webapp
+- [ ] Improve searching (Performance analysis on text indexing on MongoDB)
+- [ ] Finish fuzzy searching
+
 ## Local Demo:
 
 This project is set up using Docker Compose.
