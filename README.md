@@ -44,8 +44,8 @@ networks:
 
 ## Local Demo:
 
-This project is setup using Docker Compose.
-To try this demo on your local dev env it only requires running `docker` instance and `docker compose up`.
+This project is set up using Docker Compose.
+To try this demo on your local dev env it only requires running `docker` instance and `docker compose up`. `.env` files are included in the source for easier demonstrations. It should not be included publicly like this.
 
 ```sh
 docker compose up
@@ -53,5 +53,6 @@ docker compose up
 
 ## Live Demo:
 
-For live demo, I have set up a vercel deployment with MongoDB atlas db.
+For the live demo, I have set up a `Vercel` deployment with MongoDB atlas db.
+
 [applng-test.vercel.app](https://applng-test.vercel.app/)
